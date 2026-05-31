@@ -8,7 +8,6 @@ from pathlib import Path
 from contextlib import contextmanager
 
 DB_PATH = Path(__file__).resolve().parent / "fungal.db"
-DB_PATH.makedir(parents=True, exist_ok=True)
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS readings (
