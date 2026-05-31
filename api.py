@@ -27,7 +27,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="Fungal rig", version="1.0", lifespan=lifespan)
+app = FastAPI(title="Hyphascope", version="1.0", lifespan=lifespan)
 
 
 @app.get("/health")

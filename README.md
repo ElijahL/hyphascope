@@ -1,4 +1,4 @@
-# Fungal recording rig — Pi Zero side
+# Hyphascope
 
 Lightweight data capture stack for fungal electrophysiology. Runs on a Raspberry Pi: one process reads an ADS1115 ADC over I²C and logs raw voltage samples to SQLite; a second serves those samples over a read-only REST API. All spike detection and analysis happen on the host machine that consumes the API — the Pi just captures clean data reliably.
 
